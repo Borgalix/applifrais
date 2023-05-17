@@ -1,0 +1,43 @@
+CRITICAL - 2023-02-28 16:20:41 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-28 16:22:07 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-28 09:26:11 --> mktime() expects parameter 5 to be int, string given
+in APPPATH\Models\Tools.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mktime() expects parameter 5 to be int, string given', 'APPPATH\\Models\\Tools.php', 18, [...])
+ 2 APPPATH\Models\Tools.php(18): mktime(0, 0, 0, null, 'ROOTPATH\\public', null)
+ 3 APPPATH\Models\DataAccess.php(214): App\Models\Tools::dateFrancaisVersAnglais('ROOTPATH\\public')
+ 4 APPPATH\Models\ActionsVisiteur.php(110): App\Models\DataAccess->creeLigneHorsForfait('8TIW', '202301', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public')
+ 5 APPPATH\Controllers\Visiteur.php(130): App\Models\ActionsVisiteur->ajouteFrais('8TIW', '202301', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->ajouteUneLigneDeFrais('202301')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 09:26:11 --> mktime() expects parameter 5 to be int, string given
+in APPPATH\Models\Tools.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mktime() expects parameter 5 to be int, string given', 'APPPATH\\Models\\Tools.php', 18, [...])
+ 2 APPPATH\Models\Tools.php(18): mktime(0, 0, 0, null, 'ROOTPATH\\public', null)
+ 3 APPPATH\Models\DataAccess.php(214): App\Models\Tools::dateFrancaisVersAnglais('ROOTPATH\\public')
+ 4 APPPATH\Models\ActionsVisiteur.php(110): App\Models\DataAccess->creeLigneHorsForfait('8TIW', '202301', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public')
+ 5 APPPATH\Controllers\Visiteur.php(130): App\Models\ActionsVisiteur->ajouteFrais('8TIW', '202301', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->ajouteUneLigneDeFrais('202301')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-28 09:26:25 --> mktime() expects parameter 5 to be int, string given
+in APPPATH\Models\Tools.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mktime() expects parameter 5 to be int, string given', 'APPPATH\\Models\\Tools.php', 18, [...])
+ 2 APPPATH\Models\Tools.php(18): mktime(0, 0, 0, null, 'nrnr', null)
+ 3 APPPATH\Models\DataAccess.php(214): App\Models\Tools::dateFrancaisVersAnglais('nrnr')
+ 4 APPPATH\Models\ActionsVisiteur.php(110): App\Models\DataAccess->creeLigneHorsForfait('8TIW', '202301', 'ROOTPATH\\public', 'nrnr', 'ROOTPATH\\public')
+ 5 APPPATH\Controllers\Visiteur.php(130): App\Models\ActionsVisiteur->ajouteFrais('8TIW', '202301', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->ajouteUneLigneDeFrais('202301')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
