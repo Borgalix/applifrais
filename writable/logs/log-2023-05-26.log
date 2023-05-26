@@ -449,3 +449,83 @@ in SYSTEMPATH\Database\BaseConnection.php on line 845.
  5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
  6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 11:25:35 --> syntax error, unexpected token "if"
+in APPPATH\Views\l_visiteur.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('l_visiteur', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_visiteurAccueil', [], true)
+ 4 APPPATH\Controllers\Visiteur.php(53): view('v_visiteurAccueil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 11:26:01 --> syntax error, unexpected token "if"
+in APPPATH\Views\l_visiteur.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('l_visiteur', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_visiteurAccueil', [], true)
+ 4 APPPATH\Controllers\Visiteur.php(53): view('v_visiteurAccueil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 11:26:59 --> syntax error, unexpected token ";"
+in APPPATH\Views\l_visiteur.php on line 51.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('l_visiteur', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_visiteurAccueil', [], true)
+ 4 APPPATH\Controllers\Visiteur.php(53): view('v_visiteurAccueil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 11:28:01 --> syntax error, unexpected token "if"
+in APPPATH\Views\l_visiteur.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('l_visiteur', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_visiteurAccueil', [], true)
+ 4 APPPATH\Controllers\Visiteur.php(53): view('v_visiteurAccueil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 11:28:12 --> syntax error, unexpected token "if"
+in APPPATH\Views\l_visiteur.php on line 34.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('l_visiteur', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_visiteurAccueil', [], true)
+ 4 APPPATH\Controllers\Visiteur.php(53): view('v_visiteurAccueil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 11:31:25 --> syntax error, unexpected identifier "visiteur", expecting "," or ";"
+in APPPATH\Views\l_visiteur.php on line 38.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('l_visiteur', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_visiteurAccueil', [], true)
+ 4 APPPATH\Controllers\Visiteur.php(53): view('v_visiteurAccueil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 11:36:58 --> syntax error, unexpected token ";"
+in APPPATH\Views\l_visiteur.php on line 52.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('l_visiteur', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_visiteurAccueil', [], true)
+ 4 APPPATH\Controllers\Visiteur.php(53): view('v_visiteurAccueil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 11:37:54 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\l_visiteur.php on line 55.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('l_visiteur', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_visiteurAccueil', [], true)
+ 4 APPPATH\Controllers\Visiteur.php(53): view('v_visiteurAccueil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
