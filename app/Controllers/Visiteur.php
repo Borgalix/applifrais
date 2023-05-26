@@ -49,7 +49,7 @@ class Visiteur extends BaseController {
 		if (!$this->checkAuth()) return $this->unauthorizedAccess();
 		// envoie de la vue accueil du visiteur
 		$data['identite'] = $this->session->get('prenom').' '.$this->session->get('nom');
-
+		$data['statut'] = $this->actVisiteur->getstatut($this->idVisiteur);
 		return view('v_visiteurAccueil', $data);
 	}
 
@@ -59,6 +59,7 @@ class Visiteur extends BaseController {
 		$data['identite'] = $this->session->get('prenom').' '.$this->session->get('nom');
 		$data['mesFiches'] = $this->actVisiteur->getLesFichesDuVisiteur($this->idVisiteur);
 		$data['notify'] = $message;
+		$data['statut'] = 'test';
 
 		return view('v_visiteurMesFiches', $data);	
 	}

@@ -25,7 +25,8 @@
 			<div id="menuGauche">
 				<div id="infosUtil">
 					<h2>
-						Visiteur :<br/>
+						<?= $statut ?>
+						<br>
 						<?= $identite ?>
 					</h2>
 				</div>  

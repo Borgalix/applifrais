@@ -345,5 +345,12 @@ class DataAccess extends Model {
 				where fichefrais.idvisiteur ='$idVisiteur' and fichefrais.mois = '$mois'";
 		$this->db->simpleQuery($req);
 	}
+	public function getstat($idVisiteur){
+		$req = "select statut from visiteur where id = '$idVisiteur' ";
+		$rs = $this->db->query($req);
+		$laLigne = $rs->getFirstRow('array');
+		$totalF = $laLigne['statut'];
+		return $totalF;
+	}
 }
 ?>

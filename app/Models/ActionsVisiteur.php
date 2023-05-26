@@ -124,4 +124,14 @@ class ActionsVisiteur extends Model {
 	    $this->dao->supprimerLigneHorsForfait($idLigneFrais);
 		$this->dao->recalculeMontantFiche($idVisiteur,$mois);
 	}
+	public function getstatut($idVisiteur){
+		$req = $this->dao->getstat($idVisiteur);
+		if($req == 1){
+			return 'Comptable';
+		}
+		else{
+			return 'Visiteur';
+		}
+		
+	}
 }
