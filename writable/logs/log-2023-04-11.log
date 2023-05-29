@@ -1,0 +1,29 @@
+CRITICAL - 2023-04-11 09:54:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Visiteur.php(72): CodeIgniter\Model->__call('getLesFichesDuComptable', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->mesFichesAValider()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 09:59:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ActionsVisiteur.php(53): CodeIgniter\Model->__call('getFichesAValider', [...])
+ 4 APPPATH\Controllers\Visiteur.php(72): App\Models\ActionsVisiteur->getLesFichesDuComptable('8TIW')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->mesFichesAValider()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:08:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ActionsVisiteur.php(90): CodeIgniter\Model->__call('valideFiche', [...])
+ 4 APPPATH\Controllers\Visiteur.php(127): App\Models\ActionsVisiteur->valideFiche('8TIW', '201901')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->valideMaFiche('201901')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,227 @@
+CRITICAL - 2023-04-04 07:19:53 --> Too few arguments to function App\Models\Authentif::connecter(), 3 passed in P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\app\Controllers\Anonyme.php on line 42 and exactly 4 expected
+in APPPATH\Models\Authentif.php on line 33.
+ 1 APPPATH\Controllers\Anonyme.php(42): App\Models\Authentif->connecter('8TIW', 'lebrun', 'titouan')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Anonyme->seConnecter()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 07:21:45 --> Undefined index: Comptable
+in APPPATH\Controllers\Anonyme.php on line 42.
+ 1 APPPATH\Controllers\Anonyme.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Comptable', 'APPPATH\\Controllers\\Anonyme.php', 42, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Anonyme->seConnecter()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:17:09 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Models\ActionsVisiteur.php on line 138.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ActionsVisiteur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ActionsVisiteur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ActionsVisiteur')
+ 4 APPPATH\Controllers\Visiteur.php(29): spl_autoload_call('App\\Models\\ActionsVisiteur')
+ 5 APPPATH\Controllers\Visiteur.php(49): App\Controllers\Visiteur->checkAuth()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:17:09 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Models\ActionsVisiteur.php on line 138.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ActionsVisiteur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ActionsVisiteur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ActionsVisiteur')
+ 4 APPPATH\Controllers\Visiteur.php(29): spl_autoload_call('App\\Models\\ActionsVisiteur')
+ 5 APPPATH\Controllers\Visiteur.php(68): App\Controllers\Visiteur->checkAuth()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->seDeconnecter()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:19:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ActionsVisiteur.php(129): CodeIgniter\Model->__call('getStat', [...])
+ 4 APPPATH\Controllers\Visiteur.php(52): App\Models\ActionsVisiteur->getStatut('8TIW')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:27:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ActionsVisiteur.php(129): CodeIgniter\Model->__call('getStat', [...])
+ 4 APPPATH\Controllers\Visiteur.php(52): App\Models\ActionsVisiteur->getStatut('8TIW')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:32:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ActionsVisiteur.php(129): CodeIgniter\Model->__call('getStat', [...])
+ 4 APPPATH\Controllers\Visiteur.php(52): App\Models\ActionsVisiteur->getStatut('8TIW')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:34:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ActionsVisiteur.php(129): CodeIgniter\Model->__call('getStat', [...])
+ 4 APPPATH\Controllers\Visiteur.php(52): App\Models\ActionsVisiteur->getStatut('8TIW')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:36:03 --> Undefined variable: statut
+in APPPATH\Views\l_visiteur.php on line 28.
+ 1 APPPATH\Views\l_visiteur.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: statut', 'APPPATH\\Views\\l_visiteur.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\l_visiteur.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('l_visiteur', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_visiteurAccueil', [], true)
+ 6 APPPATH\Controllers\Visiteur.php(53): view('v_visiteurAccueil', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:36:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ActionsVisiteur.php(129): CodeIgniter\Model->__call('getStat', [...])
+ 4 APPPATH\Controllers\Visiteur.php(52): App\Models\ActionsVisiteur->getStatut('8TIW')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-04 09:37:58 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`applifrais`.`fichefrais`, CONSTRAINT `fichefrais_ibfk_2` FOREIGN KEY (`idVisiteur`) REFERENCES `visiteur` (`id`)) in P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\Database\MySQLi\Connection.php(292): mysqli->query('insert into fic...', 0)
+#1 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('insert into fic...')
+#2 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\app\Models\DataAccess.php(177): CodeIgniter\Database\BaseConnection->simpleQuery('insert into fic...')
+#3 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\app\Models\ActionsVisiteur.php(34): App\Models\DataAccess->creeFiche(NULL, '202304')
+#4 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\app\Controllers\Visiteur.php(33): App\Models\ActionsVisiteur->checkLastSix(NULL)
+#5 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\app\Controllers\Visiteur.php(49): App\Controllers\Visiteur->checkAuth()
+#6 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+#7 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-04 09:37:58 --> Cannot add or update a child row: a foreign key constraint fails (`applifrais`.`fichefrais`, CONSTRAINT `fichefrais_ibfk_2` FOREIGN KEY (`idVisiteur`) REFERENCES `visiteur` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('insert into fichefrais(idvisiteur,mois,nbJustificatifs,montantValide,dateModif,idEtat) 
+				values(\'\',\'202304\',0,0,now(),\'CR\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('insert into fichefrais(idvisiteur,mois,nbJustificatifs,montantValide,dateModif,idEtat) 
+				values(\'\',\'202304\',0,0,now(),\'CR\')')
+ 3 APPPATH\Models\DataAccess.php(177): CodeIgniter\Database\BaseConnection->simpleQuery('insert into fichefrais(idvisiteur,mois,nbJustificatifs,montantValide,dateModif,idEtat) 
+				values(\'\',\'202304\',0,0,now(),\'CR\')')
+ 4 APPPATH\Models\ActionsVisiteur.php(34): App\Models\DataAccess->creeFiche(null, '202304')
+ 5 APPPATH\Controllers\Visiteur.php(33): App\Models\ActionsVisiteur->checkLastSix(null)
+ 6 APPPATH\Controllers\Visiteur.php(49): App\Controllers\Visiteur->checkAuth()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:38:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ActionsVisiteur.php(129): CodeIgniter\Model->__call('getStat', [...])
+ 4 APPPATH\Controllers\Visiteur.php(52): App\Models\ActionsVisiteur->getStatut('8TIW')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:53:28 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Models\DataAccess.php on line 357.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DataAccess.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DataAccess')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DataAccess')
+ 4 APPPATH\Models\Authentif.php(66): spl_autoload_call('App\\Models\\DataAccess')
+ 5 APPPATH\Controllers\Anonyme.php(33): App\Models\Authentif->authentifier('tlebrun', 'titi')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Anonyme->seConnecter()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:54:18 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Models\DataAccess.php on line 357.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DataAccess.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DataAccess')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DataAccess')
+ 4 APPPATH\Models\Authentif.php(66): spl_autoload_call('App\\Models\\DataAccess')
+ 5 APPPATH\Controllers\Anonyme.php(33): App\Models\Authentif->authentifier('tlebrun', 'titi')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Anonyme->seConnecter()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:54:49 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Models\DataAccess.php on line 357.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DataAccess.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DataAccess')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DataAccess')
+ 4 APPPATH\Models\Authentif.php(66): spl_autoload_call('App\\Models\\DataAccess')
+ 5 APPPATH\Controllers\Anonyme.php(33): App\Models\Authentif->authentifier('tlebrun', 'titi')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Anonyme->seConnecter()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-04 09:55:12 --> mysqli_sql_exception: Unknown column 'visiteur.Comptable' in 'field list' in P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\Database\MySQLi\Connection.php(292): mysqli->query('select visiteur...', 0)
+#1 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select visiteur...')
+#2 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select visiteur...')
+#3 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\app\Models\DataAccess.php(31): CodeIgniter\Database\BaseConnection->query('select visiteur...', Array)
+#4 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\app\Models\Authentif.php(67): App\Models\DataAccess->getInfosVisiteur('tlebrun', 'titi')
+#5 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\app\Controllers\Anonyme.php(33): App\Models\Authentif->authentifier('tlebrun', 'titi')
+#6 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\CodeIgniter.php(927): App\Controllers\Anonyme->seConnecter()
+#7 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#8 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-04 09:55:12 --> Unknown column 'visiteur.Comptable' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select visiteur.id as id, visiteur.nom as nom, visiteur.prenom as prenom, visiteur.Comptable as comptable
+				from visiteur 
+				where visiteur.login=\'tlebrun\' and visiteur.mdp=\'titi\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select visiteur.id as id, visiteur.nom as nom, visiteur.prenom as prenom, visiteur.Comptable as comptable
+				from visiteur 
+				where visiteur.login=\'tlebrun\' and visiteur.mdp=\'titi\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select visiteur.id as id, visiteur.nom as nom, visiteur.prenom as prenom, visiteur.Comptable as comptable
+				from visiteur 
+				where visiteur.login=\'tlebrun\' and visiteur.mdp=\'titi\'')
+ 4 APPPATH\Models\DataAccess.php(31): CodeIgniter\Database\BaseConnection->query('select visiteur.id as id, visiteur.nom as nom, visiteur.prenom as prenom, visiteur.Comptable as comptable
+				from visiteur 
+				where visiteur.login=? and visiteur.mdp=?', [...])
+ 5 APPPATH\Models\Authentif.php(67): App\Models\DataAccess->getInfosVisiteur('tlebrun', 'titi')
+ 6 APPPATH\Controllers\Anonyme.php(33): App\Models\Authentif->authentifier('tlebrun', 'titi')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Anonyme->seConnecter()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:56:07 --> Undefined index: comptable
+in APPPATH\Controllers\Anonyme.php on line 42.
+ 1 APPPATH\Controllers\Anonyme.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: comptable', 'APPPATH\\Controllers\\Anonyme.php', 42, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Anonyme->seConnecter()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:57:24 --> Undefined index: statut
+in APPPATH\Controllers\Anonyme.php on line 42.
+ 1 APPPATH\Controllers\Anonyme.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: statut', 'APPPATH\\Controllers\\Anonyme.php', 42, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Anonyme->seConnecter()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 09:57:50 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Models\ActionsVisiteur.php on line 138.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ActionsVisiteur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ActionsVisiteur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ActionsVisiteur')
+ 4 APPPATH\Controllers\Visiteur.php(29): spl_autoload_call('App\\Models\\ActionsVisiteur')
+ 5 APPPATH\Controllers\Visiteur.php(49): App\Controllers\Visiteur->checkAuth()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

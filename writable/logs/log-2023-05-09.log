@@ -1,0 +1,27 @@
+CRITICAL - 2023-05-09 04:03:10 --> array_keys() expects parameter 1 to be array, null given
+in APPPATH\Models\DataAccess.php on line 118.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() expects parameter 1 to be array, null given', 'APPPATH\\Models\\DataAccess.php', 118, [...])
+ 2 APPPATH\Models\DataAccess.php(118): array_keys(null)
+ 3 APPPATH\Models\ActionsVisiteur.php(104): App\Models\DataAccess->majLignesForfait('a131', '202212', null)
+ 4 APPPATH\Controllers\Visiteur.php(138): App\Models\ActionsVisiteur->majForfait('a131', '202212', null)
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->majForfait('202212')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 04:05:08 --> Undefined index: idEtat
+in APPPATH\Views\v_fichesAValider.php on line 27.
+ 1 APPPATH\Views\v_fichesAValider.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: idEtat', 'APPPATH\\Views\\v_fichesAValider.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_fichesAValider.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_fichesAValider', [], true)
+ 5 APPPATH\Controllers\Visiteur.php(76): view('v_fichesAValider', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->mesFichesAValider()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 04:26:51 --> Too few arguments to function App\Controllers\Visiteur::valideMaFiche(), 0 passed in P:\AP\2.AppliFrais\applifrais-R2022\applifrais-CI4.2\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Visiteur.php on line 120.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Visiteur->valideMaFiche()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
